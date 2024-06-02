@@ -1,0 +1,10 @@
+{
+	"announceCmd":true,
+	"sendImageCmd":false,
+	"applicationCmd":true,
+	"applicationChannelId":"1245281405324365875",
+	"suggestionCmd":true,
+	"suggestionChannelId":"1244722664958984315",
+	"sendDMCmd":true,
+	"adminRoleIds":["1197890254586261534","1187039660019556452","1187370848114450522"]
+}
