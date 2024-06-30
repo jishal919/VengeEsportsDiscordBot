@@ -33,7 +33,7 @@ Welcome to the Venge Esports Discord Bot repository! This bot is designed to man
     ```json
     {
         "announceCmd": true,
-        "sendImageCmd": false,
+        "sendImageCmd": true,
         "applicationCmd": true,
         "applicationChannelId": "1245281405324365875",
         "suggestionCmd": true,
