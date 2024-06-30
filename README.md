@@ -8,6 +8,19 @@ Welcome to the Venge Esports Discord Bot repository! This bot is designed to man
 - **Suggestions**: Users can submit suggestions.
 - **Announcement Management**: Send announcements to a specified channel.
 
+## Available Commands
+
+### Regular Commands
+
+- `+ping` - Check the bot's ping status.
+- `+send-image` - Send an embed message with an image.
+
+### Slash Commands
+
+- `/announce` - Send announcements to a specified channel.
+- `/application` - Handle user applications for roles within the server.
+- `/send-dm` - Send a direct message to a user.
+- `/suggestion` - Submit a suggestion to a specified channel.
 
 
 
