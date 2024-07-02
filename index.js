@@ -53,7 +53,6 @@ client.once('ready', () => {
 
 client.on('messageCreate', async message => {
     const prefix = '+';
-    console.log(`Received message: ${message.content}`);
     if (message.author.bot) return; 
     if (!message.content.startsWith(prefix)) return;
 
@@ -63,7 +62,6 @@ client.on('messageCreate', async message => {
 
     const command = client.commands.get(cmd);
     if (!command) return;
-    console.log(args);
     try {
         await command.execute(message, args, getFlagsAndData, client);
     } catch (error) {
